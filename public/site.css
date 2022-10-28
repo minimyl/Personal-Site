@@ -1,0 +1,145 @@
+html {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(#277410, #6416bd)
+}
+body{
+    max-width: 960px;
+    margin: 0 auto;
+}
+header.site {
+    font-size: .5em 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 64px;
+    padding: 16px;
+    background: white;
+    box-shadow: 0 0 12px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/*.dropbtn {
+    background-color:#b61515;
+    color: white;
+}*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-text {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: auto;
+    z-index: 1;
+}
+.dropdown-text a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-text{
+    display: block;
+    left: -100%;
+}
+.menuimg {
+    width: 50px;
+}
+main.site {
+    min-height: 75vh;
+    padding: 80px 24px 100px;
+    box-shadow: 0 0 12px black;
+    background: linear-gradient(#277410, #6416bd);
+    color: black;
+
+}
+.demo {
+    border: 8px double grey;
+    background: white;
+    padding-inline-start: 8px;
+    box-shadow: 0 0 12px pink;
+
+}
+.demo2 {
+    border: 8px double grey;
+    width: 300px;
+    height: 400px;
+    border-color: grey;
+    background: white;
+    padding-inline-start: 8px;
+    box-shadow: 0 0 12px pink;
+}
+.demo3 {
+    border: 8px double grey;
+    background: white;
+    padding-inline-start: 8px;
+    box-shadow: 0 0 12px pink;
+}
+.demo4 {
+    border: 8px double grey;
+    background: white;
+    padding-inline-start: 8px;
+    box-shadow: 0 0 12px pink;
+}
+div {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.first {
+    border: 8px double grey;
+    border-radius: 25px;
+    background: white;
+    padding-inline-start: 8px;
+    box-shadow: 0 0 12px pink;
+}
+.second {
+    border: 8px double grey;
+    border-radius: 25px;
+    background: white;
+    padding-inline-start: 8px;
+    box-shadow: 0 0 12px pink;
+
+}
+.third {
+    border: 8px double grey;
+    border-radius: 25px;
+    background: white;
+    padding-inline-start: 8px;
+    box-shadow: 0 0 12px pink;
+}
+.sam {
+    height: 198px;
+    float: right;
+    margin: 16px ;
+}
+.naruto {
+    height: 170px;
+    float: left;
+    margin: 0 16px;
+}
+.piccolo {
+    height: 198px;
+    float: right;
+    margin: 0 16px 0 16px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    padding: 16px;
+    height: 64px;
+    background: white;
+    box-shadow: 0 0 12px black;
+}
+.media-link {
+    width: 55px; 
+}
+

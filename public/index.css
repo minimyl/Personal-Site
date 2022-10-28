@@ -1,0 +1,15 @@
+h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.intro{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid black;
+    border-top: hidden;
+    border-right: hidden;
+    padding-left: 8px;
+    width: 200px;
+}
+
